@@ -1,0 +1,11 @@
+service: helloWorldApp
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  helloWorldFunction:
+    handler: index.handler
+    name: hello-world-app
+    
