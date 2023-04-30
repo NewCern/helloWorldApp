@@ -8,4 +8,6 @@ functions:
   helloWorldFunction:
     handler: index.handler
     name: hello-world-app
+    events:
+      - http: GET /hello
     
